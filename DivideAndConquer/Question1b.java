@@ -1,4 +1,4 @@
-package DivideAndConquer;
+package DivideAndConquer; //left pivot
 
 public class Question1b {
     public static void main(String[] args) {
