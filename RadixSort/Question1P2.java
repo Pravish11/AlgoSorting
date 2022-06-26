@@ -8,7 +8,6 @@ public class Question1P2 {
         radixExchangeSort(firstArray, firstArray.length);
         System.out.print("After sorting(Radix Exchange Sort): ");
         printArray(firstArray);
-
     }
     public static void printArray(int[] myArray) {
         for (int i = 0; i < myArray.length; i++) {
@@ -17,18 +16,6 @@ public class Question1P2 {
         System.out.println(" ");
     }
     public static void radixExchangeSort(int[] myArray,int n){
-        int m = getMax(myArray,n); //get largest number and know number of digits
-        System.out.println(m);
-    }
-    public static int getMax(int[] myArray,int n) {
-        int max = myArray[0];
-        for(int i=1;i<n;i++)
-        {
-            if(myArray[i]>max)
-            {
-                max = myArray[i];
-            }
-        }
-        return max;
+       
     }
 }
