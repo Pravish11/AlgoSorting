@@ -1,4 +1,4 @@
-package RadixSort;
+package RadixSort; //radix straight sort
 
 import java.util.Arrays;
 
